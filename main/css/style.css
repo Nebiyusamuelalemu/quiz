@@ -12,6 +12,7 @@ body{
     padding: 20px;
     margin-top: 100px;
     box-shadow: 5px 5px 4px rgb(91, 166, 141), -5px -5px 5px white;
+    font-family: 'Courier New', Courier, monospace;
 }
 #menuButton{
     border:none;
@@ -21,11 +22,13 @@ body{
     color:white;
     padding: 10px 10px;
     cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
 }
 #header1{
     text-decoration: underline black;
     font-size: 1.99em;
     margin-bottom: 80px;
+    font-family: 'Courier New', Courier, monospace;
 }
 #startButton{
     padding: 10px 20px;
@@ -34,6 +37,7 @@ body{
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
 }
 #continueButton{
     padding: 10px 8px;
@@ -43,8 +47,19 @@ body{
     border-radius: 10px;
     cursor: pointer;
     margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
 
 }
 #imga{
     height:100px;
+}
+#levcontainer{
+    text-align: center;
+}
+#levheader{
+    color:white;
+    text-decoration: underline wheat;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
