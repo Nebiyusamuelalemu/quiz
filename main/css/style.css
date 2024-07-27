@@ -2,6 +2,9 @@ body{
     margin: 0;
     background-color: black;
 }
+#maincontainer{
+    padding: 10px 10px;
+}
 #subcontainer{
     background-color: aquamarine;
     text-align: center;
@@ -62,4 +65,41 @@ body{
     font-style: italic;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
+    color:rgb(191, 186, 186);
+    transition: color 0.5s ease-out;
 }
+
+.level{
+    text-align: center;
+    font-size: 3em;
+    width: 80px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: aqua;
+    transition: background-color 0.6s ease-in;
+    animation-name: slide-in, slide-out;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+  
+  @keyframes slide-out {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
